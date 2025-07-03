@@ -13,7 +13,7 @@ public class DemoController {
     @GetMapping("/test")
     @ResponseStatus(HttpStatus.OK)
     public String test() {
-        return "Hello world";
+        return "Hello world ";
     }
 
 }
