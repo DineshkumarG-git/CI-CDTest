@@ -15,4 +15,13 @@ public class DemoControllerTest {
         assertEquals(6, result);
 
     }
+
+    @Test
+    public void multiplierTest() {
+        var  demoController = new DemoController();
+        var result = demoController.multiplier(3,3);
+        assertEquals(9, result);
+
+    }
+
 }
